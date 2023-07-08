@@ -36,7 +36,6 @@ const CareerDetailsScreen = ({ route }) => {
     const loadFonts = async () => {
       try {
         await Font.loadAsync({
-          // Specify the name of your custom font file (without the file extension)
           'Inter-Light': require('../assets/fonts/Inter/static/Inter-Light.ttf'),
           'Inter-Bold': require('../assets/fonts/Inter/static/Inter-Bold.ttf'),
           'Inter-Medium': require('../assets/fonts/Inter/static/Inter-Medium.ttf'),
