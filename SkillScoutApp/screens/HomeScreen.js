@@ -67,8 +67,8 @@ const styles = StyleSheet.create({
     width: '90%'
   },
   careerButton: {
-    width: Dimensions.get('window').width / 3 - 8, // Adjust the width as needed
-    height: Dimensions.get('window').width / 3 - 8, // Adjust the height as needed
+    width: Dimensions.get('window').width / 3 - 8,
+    height: Dimensions.get('window').width / 3 - 8,
     backgroundColor: '#BCE0EA',
     borderRadius: 10,
     margin: 10,
